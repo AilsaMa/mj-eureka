@@ -1,4 +1,4 @@
-package com.mj.springclouddemo;
+package com.mj.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @EnableEurekaServer
 @SpringBootApplication
-public class SpringcloudDemoApplication {
+public class MjEurekaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringcloudDemoApplication.class, args);
+		SpringApplication.run(MjEurekaApplication.class, args);
 	}
 
 	@EnableWebSecurity
